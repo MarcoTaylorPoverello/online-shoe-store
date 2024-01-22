@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>DawproShoes</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+  <button id="backToTop" onclick="topFunction()"> TOP </button>
+  <style>
+    #backToTop {
+      bottom: 20px;
+      right: 10px;
+      position: fixed;
+      z-index: 99;
+      padding: 10px 30px;
+      background-color: darkcyan;
+      color: white;
+      border: none;
+    }
+  </style>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      let backToTop = document.getElementById("backToTop");
+      backToTop.addEventListener("click", topFunction);
+
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          backToTop.style.display = "block";
+        } else {
+          backToTop.style.display = "none";
+        }
+      }
+      function topFunction() {
+        document.documentElement.scrollTop = 0;
+      }
+    });
+  </script>
+  <app-root></app-root>
+</body>
+</html>

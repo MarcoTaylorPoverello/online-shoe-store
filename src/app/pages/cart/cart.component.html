@@ -1,0 +1,25 @@
+<section class="cart-page">
+    <h1 class="cart-title">Cart</h1>
+    <div class="cart-table-container">
+        <table class="cart-table">
+            <tr>
+              <th>Product</th>
+              <th>Quantity</th>
+              <th>Price</th>
+              <th>VAT</th>
+              <th>Price with VAT</th>
+              <th>Remove Item</th>
+            </tr>
+            <tr *ngFor="let getCartDetail of getCartDetails">
+              <td><img class="cart-image" src={{getCartDetail.image}}></td>
+              <td>{{getCartDetail.quantity}}</td>
+              <td>{{getCartDetail.price | currency: 'ZAR'}}</td>
+              <td>{{getCartDetail.vat | currency: 'ZAR'}}</td>
+              <td>{{getCartDetail.priceIncVat | currency: 'ZAR'}}</td>
+              <td><button class="remove-item-btn" id="remove-btn" (click)="removeFromCart(getCartDetail)"><fa-icon [icon] = "faX"></fa-icon></button></td>
+            </tr>
+          </table>
+          <div class="cart-total">Total: {{getTotal() | currency: 'ZAR'}}</div>
+          <button class="checkout-btn" routerLink="/checkout">Proceed to checkout</button>
+    </div>
+</section>

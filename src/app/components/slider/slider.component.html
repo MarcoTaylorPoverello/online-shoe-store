@@ -1,0 +1,13 @@
+<div class="review-slider">
+  <div class="slider-arrow-left" (click)="previous()">
+    <fa-icon [icon]="faArrowLeft"></fa-icon>
+  </div>
+  <div class="slider-arrow-right" (click)="next()">
+    <fa-icon [icon]="faArrowRight"></fa-icon>
+  </div>
+  <div class="slider-slide" *ngFor="let review of reviews; let i = index" [ngClass]="getClasses(i)">
+    <h3>{{ review.name }}</h3>
+    <p>{{ review.review }}</p>
+    <div class="slider-rating">Rating: {{ review.rating }}/5</div>
+  </div>
+</div>

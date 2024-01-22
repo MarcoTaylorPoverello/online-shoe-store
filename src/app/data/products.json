@@ -1,0 +1,122 @@
+[
+  {
+    "id": 0,
+    "sku": "",
+    "brand_id": "",
+    "gender_id": "",
+    "product_type": "",
+    "product_name": "dolore",
+    "price": 334,
+    "stock": 54,
+    "created_date": "2022-12-23T11:19:05 -02:00",
+    "updated_date": "2023-05-19T04:04:15 -02:00"
+  },
+  {
+    "id": 1,
+    "sku": "",
+    "brand_id": "",
+    "gender_id": "",
+    "product_type": "",
+    "product_name": "occaecat",
+    "price": 778,
+    "stock": 56,
+    "created_date": "2022-02-28T06:32:13 -02:00",
+    "updated_date": "2022-05-20T08:05:48 -02:00"
+  },
+  {
+    "id": 2,
+    "sku": "",
+    "brand_id": "",
+    "gender_id": "",
+    "product_type": "",
+    "product_name": "aute",
+    "price": 638,
+    "stock": 59,
+    "created_date": "2023-02-12T02:41:27 -02:00",
+    "updated_date": "2022-03-28T06:48:04 -02:00"
+  },
+  {
+    "id": 3,
+    "sku": "",
+    "brand_id": "",
+    "gender_id": "",
+    "product_type": "",
+    "product_name": "id",
+    "price": 164,
+    "stock": 93,
+    "created_date": "2022-06-16T04:27:29 -02:00",
+    "updated_date": "2022-03-13T02:50:48 -02:00"
+  },
+  {
+    "id": 4,
+    "sku": "",
+    "brand_id": "",
+    "gender_id": "",
+    "product_type": "",
+    "product_name": "mollit",
+    "price": 936,
+    "stock": 53,
+    "created_date": "2023-02-12T06:28:50 -02:00",
+    "updated_date": "2022-03-08T09:29:20 -02:00"
+  },
+  {
+    "id": 5,
+    "sku": "",
+    "brand_id": "",
+    "gender_id": "",
+    "product_type": "",
+    "product_name": "fugiat",
+    "price": 672,
+    "stock": 3,
+    "created_date": "2023-01-14T08:17:21 -02:00",
+    "updated_date": "2022-04-11T03:12:53 -02:00"
+  },
+  {
+    "id": 6,
+    "sku": "",
+    "brand_id": "",
+    "gender_id": "",
+    "product_type": "",
+    "product_name": "pariatur",
+    "price": 246,
+    "stock": 73,
+    "created_date": "2022-07-22T02:11:48 -02:00",
+    "updated_date": "2022-04-23T12:04:19 -02:00"
+  },
+  {
+    "id": 7,
+    "sku": "",
+    "brand_id": "",
+    "gender_id": "",
+    "product_type": "",
+    "product_name": "non",
+    "price": 955,
+    "stock": 61,
+    "created_date": "2022-10-24T01:46:18 -02:00",
+    "updated_date": "2023-07-10T10:10:47 -02:00"
+  },
+  {
+    "id": 8,
+    "sku": "",
+    "brand_id": "",
+    "gender_id": "",
+    "product_type": "",
+    "product_name": "minim",
+    "price": 434,
+    "stock": 31,
+    "created_date": "2022-09-12T04:05:24 -02:00",
+    "updated_date": "2022-08-13T02:06:22 -02:00"
+  },
+  {
+    "id": 9,
+    "sku": "",
+    "brand_id": "",
+    "gender_id": "",
+    "product_type": "",
+    "product_name": "Lorem",
+    "price": 839,
+    "stock": 50,
+    "created_date": "2022-08-25T05:57:52 -02:00",
+    "updated_date": "2022-10-16T01:46:55 -02:00"
+  }
+]

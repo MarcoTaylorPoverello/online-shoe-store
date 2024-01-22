@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+    --blackbg: #191919;
+    --sitegreen: #008b8b;
+  }
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}

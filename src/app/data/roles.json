@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "role_name": "",
+    "role_capabilities": "",
+    "created_date": "2023-03-22T11:53:31 -02:00",
+    "updated_date": "2023-04-24T11:40:54 -02:00"
+  },
+  {
+    "id": 1,
+    "role_name": "",
+    "role_capabilities": "",
+    "created_date": "2023-06-28T05:45:57 -02:00",
+    "updated_date": "2023-07-15T04:52:11 -02:00"
+  },
+  {
+    "id": 2,
+    "role_name": "",
+    "role_capabilities": "",
+    "created_date": "2022-09-21T05:28:47 -02:00",
+    "updated_date": "2022-12-06T10:59:46 -02:00"
+  },
+  {
+    "id": 3,
+    "role_name": "",
+    "role_capabilities": "",
+    "created_date": "2023-01-05T09:56:20 -02:00",
+    "updated_date": "2023-02-04T07:41:44 -02:00"
+  },
+  {
+    "id": 4,
+    "role_name": "",
+    "role_capabilities": "",
+    "created_date": "2022-09-19T02:49:49 -02:00",
+    "updated_date": "2022-04-25T03:58:14 -02:00"
+  },
+  {
+    "id": 5,
+    "role_name": "",
+    "role_capabilities": "",
+    "created_date": "2023-06-04T10:28:19 -02:00",
+    "updated_date": "2023-03-02T09:13:05 -02:00"
+  },
+  {
+    "id": 6,
+    "role_name": "",
+    "role_capabilities": "",
+    "created_date": "2022-03-16T09:44:50 -02:00",
+    "updated_date": "2023-07-18T02:01:43 -02:00"
+  },
+  {
+    "id": 7,
+    "role_name": "",
+    "role_capabilities": "",
+    "created_date": "2023-03-21T09:21:58 -02:00",
+    "updated_date": "2023-03-13T11:47:32 -02:00"
+  },
+  {
+    "id": 8,
+    "role_name": "",
+    "role_capabilities": "",
+    "created_date": "2022-08-31T02:01:06 -02:00",
+    "updated_date": "2022-10-25T08:42:45 -02:00"
+  },
+  {
+    "id": 9,
+    "role_name": "",
+    "role_capabilities": "",
+    "created_date": "2022-04-16T05:24:52 -02:00",
+    "updated_date": "2022-02-09T12:53:53 -02:00"
+  }
+]

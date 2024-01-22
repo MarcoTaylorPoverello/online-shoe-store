@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0,
+    "title": "in",
+    "featured_image": "https://placeholdit.co.za/",
+    "excerpt": "Ad magna excepteur cupidatat quis reprehenderit.",
+    "content": "Minim laborum voluptate in quis.",
+    "slug": "Nostrud eiusmod commodo aliquip anim enim labore.",
+    "meta_description": "Consectetur mollit ullamco aliqua labore magna id quis anim."
+  },
+  {
+    "id": 1,
+    "title": "sint",
+    "featured_image": "https://placeholdit.co.za/",
+    "excerpt": "Tempor quis exercitation deserunt dolore id cillum nostrud cupidatat in reprehenderit consequat irure esse.",
+    "content": "Officia commodo aliquip aliqua tempor ullamco Lorem dolor aliqua duis et Lorem.",
+    "slug": "Adipisicing et dolor exercitation Lorem consectetur voluptate consectetur do Lorem consequat est labore excepteur non.",
+    "meta_description": "Irure consequat aliquip dolore qui consequat reprehenderit eiusmod."
+  },
+  {
+    "id": 2,
+    "title": "duis",
+    "featured_image": "https://placeholdit.co.za/",
+    "excerpt": "Deserunt ipsum laborum veniam minim non magna quis laborum laborum fugiat commodo pariatur laboris dolor.",
+    "content": "Aliquip aliquip elit deserunt qui.",
+    "slug": "Esse laborum officia eu sint elit in eu quis ea in consequat esse aute.",
+    "meta_description": "Anim magna dolor consectetur anim."
+  },
+  {
+    "id": 3,
+    "title": "ea",
+    "featured_image": "https://placeholdit.co.za/",
+    "excerpt": "In pariatur aute adipisicing anim velit id dolore elit aute irure irure exercitation excepteur.",
+    "content": "Sint tempor cillum velit in ea et est velit dolor et elit eu tempor.",
+    "slug": "Eiusmod nostrud reprehenderit enim amet adipisicing dolore incididunt sunt excepteur mollit ipsum velit.",
+    "meta_description": "Sint amet id voluptate Lorem ea."
+  },
+  {
+    "id": 4,
+    "title": "voluptate",
+    "featured_image": "https://placeholdit.co.za/",
+    "excerpt": "Ea eu sit nisi tempor nulla nulla magna ex nulla excepteur sunt non laboris commodo.",
+    "content": "Adipisicing sunt reprehenderit dolor duis est aliqua quis et Lorem eu.",
+    "slug": "Veniam do aliquip id ad velit aliqua nostrud dolore.",
+    "meta_description": "Elit cillum ut in ipsum occaecat labore magna commodo laboris."
+  },
+  {
+    "id": 5,
+    "title": "cillum",
+    "featured_image": "https://placeholdit.co.za/",
+    "excerpt": "Non sit nulla ad minim cillum sunt amet exercitation nulla culpa.",
+    "content": "Consectetur esse culpa cillum cupidatat qui laborum minim excepteur ullamco consequat quis enim occaecat cupidatat.",
+    "slug": "Excepteur sit qui deserunt magna ullamco occaecat dolor cillum laborum dolor.",
+    "meta_description": "Nulla id officia fugiat ut quis ea Lorem quis fugiat do incididunt."
+  },
+  {
+    "id": 6,
+    "title": "velit",
+    "featured_image": "https://placeholdit.co.za/",
+    "excerpt": "Sunt ut ex enim et laboris eu culpa quis enim duis.",
+    "content": "Aute ullamco enim elit officia id ut mollit fugiat culpa et.",
+    "slug": "Incididunt occaecat deserunt consequat culpa officia nisi qui sit fugiat tempor fugiat enim excepteur deserunt.",
+    "meta_description": "Amet enim deserunt ex ea qui ex ipsum."
+  },
+  {
+    "id": 7,
+    "title": "labore",
+    "featured_image": "https://placeholdit.co.za/",
+    "excerpt": "Deserunt sint eiusmod enim tempor est et enim do pariatur id.",
+    "content": "Deserunt reprehenderit eiusmod ipsum consectetur cupidatat.",
+    "slug": "Reprehenderit do non non cupidatat minim nisi do.",
+    "meta_description": "Aute ad velit esse consequat pariatur nisi ad magna excepteur voluptate sit in aliquip magna."
+  },
+  {
+    "id": 8,
+    "title": "ullamco",
+    "featured_image": "https://placeholdit.co.za/",
+    "excerpt": "Ea culpa quis adipisicing occaecat sit ut commodo officia quis tempor id duis.",
+    "content": "Sint qui minim tempor qui laborum pariatur pariatur tempor reprehenderit incididunt irure.",
+    "slug": "Ex deserunt sunt elit nisi.",
+    "meta_description": "Voluptate commodo cupidatat ullamco aliqua ea esse laboris cupidatat culpa Lorem."
+  },
+  {
+    "id": 9,
+    "title": "et",
+    "featured_image": "https://placeholdit.co.za/",
+    "excerpt": "Dolore reprehenderit commodo nisi cupidatat et consequat irure officia id in ut.",
+    "content": "Labore esse deserunt ea laborum magna in pariatur dolore mollit.",
+    "slug": "Anim cillum minim nisi cillum ut pariatur sit dolor laborum deserunt ea sunt elit eu.",
+    "meta_description": "Sit id culpa cillum enim."
+  }
+]

@@ -1,0 +1,77 @@
+
+<!--Carousel Slider Style Below -->
+
+<section class="image-carousel">
+  <div class="arrow-left">
+    <fa-icon [icon]="faArrowLeft"></fa-icon>
+  </div>
+  <div class="arrow-right">
+    <fa-icon [icon]="faArrowRight"></fa-icon>
+  </div>
+  <div class="ad-words">
+    <h1 data-text="OUR NEW SNEAKER COLLECTION!"> OUR NEW SNEAKER COLLECTION! </h1>
+    <h1 data-text="OUR NEW BOOT COLLECTION!"> OUR NEW BOOT COLLECTION! </h1>
+    <h1 data-text="OUR NEW LOAFER COLLECTION!"> OUR NEW LOAFER COLLECTION! </h1>
+    <h1 data-text="OUR NEW FORMAL COLLECTION!"> OUR NEW FORMAL COLLECTION! </h1>
+  </div>
+</section>
+
+<!--Online store-->
+
+<!--50% sale-->
+
+<div class="container">
+  <div class="product-title"> Stock is running out! </div>
+  <div class="product" *ngFor="let product of products">
+    <img src={{product.image}} alt="Product 1">
+    <p class="price">{{product.price | currency: 'ZAR '}}</p>
+    <h2>{{product.name}}</h2>
+    <button class="plus-icon" (click)="add(product)"><fa-icon [icon]="faPlus"></fa-icon></button>
+    <span>{{product.quantity}}</span>
+    <button class="minus-icon" (click)="minus(product)"><fa-icon [icon]="faMinus"></fa-icon></button>
+    <div class="buttons">
+      <button class="atc-button" (click)="addToCart(product)"> Add to Cart </button>
+      <button class="view-button"> View </button>
+    </div>
+  </div>
+</div>
+
+<!--new arrivals-->
+
+<div class="container">
+  <div class="new-arrivals-product-title"> Our Newest Arrivals! </div>
+  <div class="product" *ngFor="let product of products">
+    <img src={{product.image}} alt="Product 1">
+    <p class="price">{{product.price | currency: 'ZAR '}}</p>
+    <h2>{{product.name}}</h2>
+    <button class="plus-icon" (click)="add(product)"><fa-icon [icon]="faPlus"></fa-icon></button>
+    <span>{{product.quantity}}</span>
+    <button class="minus-icon" (click)="minus(product)"><fa-icon [icon]="faMinus"></fa-icon></button>
+    <div class="buttons">
+      <button class="atc-button" (click)="addToCart(product)"> Add to Cart </button>
+      <button class="view-button"> View </button>
+    </div>
+  </div>
+</div>
+
+<!--most popular-->
+
+<div class="container">
+  <div class="most-popular-product-title"> Our Most Popular! </div>
+  <div class="product" *ngFor="let product of products">
+    <img src={{product.image}}  alt="Product 1">
+    <p class="price">{{product.price | currency: 'ZAR '}}</p>
+    <h2>{{product.name}}</h2>
+    <button class="plus-icon" (click)="add(product)"><fa-icon [icon]="faPlus"></fa-icon></button>
+    <span>{{product.quantity}}</span>
+    <button class="minus-icon" (click)="minus(product)"><fa-icon [icon]="faMinus"></fa-icon></button>
+    <div class="buttons">
+      <button class="atc-button" (click)="addToCart(product)"> Add to Cart </button>
+      <button class="view-button"> View </button>
+    </div>
+  </div>
+</div>
+
+<!-- Reviews from customers -->
+
+<app-slider></app-slider>

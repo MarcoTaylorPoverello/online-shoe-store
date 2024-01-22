@@ -1,0 +1,23 @@
+<header>
+  <a id="#btt"></a>
+  <nav class="navbar">
+    <a href="http://localhost:4200/">
+      <img src="../../../assets/img/100px-logo-white.png" alt="logo">
+    </a>
+    <div class="navbar-pages">
+      <a class="nav-item" data-text="Home" href="http://localhost:4200/">Home</a>
+      <a class="nav-item" data-text="About" routerLink="about">About</a>
+      <a class="nav-item" data-text="Shop" routerLink="shop">Shop</a>
+      <a class="nav-item" data-text="Account" routerLink="account">Account</a>
+      <a class="nav-item" data-text="Contact" routerLink="contact">Contact</a>
+    </div>
+    <div class="inputSearch">
+      <input class="search-bar" type="search" required="required" id="searchBar">
+      <span> Search </span>
+    </div>
+    <div class="cart-icon" routerLink="/cart">
+      <fa-icon [icon]="faCartShopping"></fa-icon>
+      <div class="cart-value">{{cartItem}}</div>
+    </div>
+  </nav>
+</header>

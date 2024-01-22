@@ -1,0 +1,28 @@
+.footer {
+  border-top: 2px solid darkcyan;
+  background-color: #191919;
+  padding: 10px 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logo {
+  flex: 1;
+}
+.center-links a {
+  flex: 2;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 0px 50px;
+}
+.social-media {
+  flex: 1;
+  text-align: right;
+}
+.social-media, a {
+  font-size: 25px;
+  color: darkcyan;
+  padding-right: 30px;
+}

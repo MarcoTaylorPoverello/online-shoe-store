@@ -1,0 +1,114 @@
+/*Header*/
+
+header {
+  background-color: var(--blackbg);
+}
+
+.navbar {
+  position: relative;
+  padding: 10px 20px;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.navbar-pages {
+  position: relative;
+}
+
+.nav-item {
+  position: relative;
+  padding: 50px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+.nav-items, a::before {
+  content: attr(data-text);
+  position: absolute;
+  color: var(--sitegreen);
+  width: 0;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.nav-items, a:hover::before {
+  width: 100%;
+  -webkit-text-stroke: 1px var(--sitegreen);
+}
+
+/*Search Bar*/
+
+.inputSearch {
+  width: 200px;
+  position: relative;
+}
+
+.inputSearch input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid white;
+  background: #191919;
+  border-radius: 0px;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.inputSearch span {
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 0;
+  color: white;
+  padding: 10px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.inputSearch input:valid ~ span,
+.inputSearch input:focus ~ span
+{
+  color: white;
+  transform: translateX(65px) translateY(-11px);
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--blackbg);
+  padding: 0px 10px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  letter-spacing: 2px;
+}
+
+.inputSearch input:valid,
+.inputSearch input:focus {
+  border: 2px solid var(--sitegreen);
+}
+
+/* Cart Icon */
+
+.cart-icon {
+  cursor: pointer;
+  position: relative;
+  align-items: center;
+}
+
+fa-icon {
+  font-size: 25px;
+  color: white;
+}
+
+.cart-value {
+  position: absolute;
+  padding: 3px 10px;
+  bottom: 25px;
+  left: 26px;
+  background-color: var(--sitegreen);
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 15px;
+
+}

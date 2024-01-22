@@ -1,0 +1,207 @@
+.image-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid darkcyan;
+  border-bottom: 3px solid darkcyan;
+  height: 90vh;
+  position: relative;
+  background-image: url("src/assets/img/sneakercollection.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  transition: ease 0.3s;
+}
+
+.ad-words h1 {
+  white-space: nowrap;
+  position: relative;
+  color: transparent;
+  -webkit-text-stroke: 3px white;
+  font-size: 70px;
+}
+
+.ad-words h1::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: darkcyan;
+  -webkit-text-stroke: 3px darkcyan;
+  border-right: 5px solid darkcyan;
+  overflow: hidden;
+  animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+  0%,10%,101% {
+    width: 0;
+  }
+  70%,90% {
+    width: 101%;
+  }
+}
+
+.arrow-left {
+  left: 20px;
+}
+
+.arrow-right {
+  right: 20px;
+}
+
+.arrow-left, .arrow-right {
+  color: black;
+  position: absolute;
+  background: white;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+.arrow-left:hover, .arrow-right:hover {
+  background: darkcyan;
+  color: white;
+}
+
+/*JS Toggle Class*/
+
+.image-fade {
+  animation: infinite;
+}
+
+@keyframes imgFade {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+/*online store*/
+
+/*Low Stock*/
+
+.product-title {
+  border: 5px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-size: 50px;
+  font-weight: 600;
+  color: red;
+  font-family: Broadway;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid lightgrey;
+  padding: 20px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.price {
+  padding-top: 20px!important;
+  color: darkcyan!important;
+  font-weight: 900;
+  font-size: 30px!important;
+  text-align: center;
+}
+
+.product h2 {
+  font-size: 22px;
+}
+
+.product p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+.plus-icon, .minus-icon {
+  background: var(--sitegreen);
+  border-radius: 80%;
+  border: 1px solid white;
+  font-size: 16px;
+  color: white;
+  padding: 5px 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.product span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.product .buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.atc-button {
+  padding: 10px 20px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.view-button {
+  padding: 10px 40px;
+  background-color: darkslategray;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/*New Arrivals CSS Panel*/
+
+.new-arrivals-product-title {
+  border: 5px solid darkcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #191919;
+  font-family: Broadway;
+}
+
+/*Most Popular CSS Panel*/
+
+.most-popular-product-title {
+  border: 5px solid forestgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #191919;
+  font-family: Broadway;
+}
